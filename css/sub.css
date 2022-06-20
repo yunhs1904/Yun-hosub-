@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+header > div {
+  text-align: center;
+  padding: 5.8rem 2rem 0;
+}
+header > div strong {
+  font-weight: 500;
+  font-size: 1.9rem;
+  color: #333333;
+}
+header > div span {
+  float: right;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+header > div .close {
+  margin-top: 0.5rem;
+  background: url(../img/close_icon.png) no-repeat center right / 1.7rem auto;
+}
+.Program {
+  padding: 0 2rem;
+}
+.Program_List {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 0 0 0; */
+  border-bottom: 0.1rem solid #ededed;
+}
+.Program_List .right_icon img {
+  width: 0.6rem;
+}
+.Program_List .list_wrap {
+  display: flex;
+  align-items: center;
+}
+.Program_List .list_wrap .left {
+  margin-top: 1rem;
+  text-align: center;
+}
+.Program_List .list_wrap .right {
+  padding: 0 0 0 1.5rem;
+}
+.Program_List .list_wrap .right strong {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #333333;
+}
+.Program_List .list_wrap .right p {
+  font-size: 1.2rem;
+  letter-spacing: -0.05rem;
+  word-spacing: 0.5rem;
+  color: #999999;
+}
+.Program_List .list_wrap .thoumb {
+  display: block;
+  width: 6rem;
+  border-radius: 3rem;
+  border: 0.3rem solid #78bcb0;
+  box-sizing: border-box;
+}
+.Program_List .list_wrap .logo {
+  width: 4.25rem;
+  margin-top: -2rem;
+}
+.Shortcuts {
+  position: relative;
+  background: #f5f5f5;
+}
+.Shortcuts .Shortcuts_wrap {
+  padding: 2.1rem 0;
+  display: flex;
+  text-align: center;
+}
+.Shortcuts .Shortcuts_wrap a {
+  display: block;
+  width: 100%;
+}
+.Shortcuts .Shortcuts_wrap a + a {
+  border-left: 0.1rem solid #e1e1e1;
+}
+.Shortcuts .close1 {
+  position: absolute;
+  left: 50%;
+  bottom: -2.5rem;
+  transform: translateX(-50%);
+  padding: 2rem;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 0.4rem solid #fff;
+  background: url(../img/close_icon-1.png) no-repeat center center / 1.6rem auto #abcd05;
+}
